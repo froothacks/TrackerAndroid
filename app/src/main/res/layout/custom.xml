@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Club ID"
+            android:id="@+id/club" />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Database URL"
+            android:id="@+id/database_url" />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Database Key"
+            android:id="@+id/database_key"
+            android:layout_gravity="center_horizontal" />
+    <Button
+            android:text="Button_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/ok_button"/>
+
+</LinearLayout>

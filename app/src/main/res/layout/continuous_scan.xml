@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content"
+             android:layout_height="match_parent" android:weightSum="1" android:visibility="visible">
+    <RelativeLayout android:layout_weight="0.82" android:weightSum="1" android:layout_width="match_parent"
+                  android:visibility="visible">
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Name"
+                android:ems="10"
+                android:layout_alignParentTop="true" android:layout_alignParentStart="true" android:id="@+id/editText"
+                android:layout_alignParentEnd="true" android:textAlignment="center"/>
+    </RelativeLayout>
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+            android:id="@+id/barcode_scanner"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" android:weightSum="2" android:layout_weight="0.18">
+    </com.journeyapps.barcodescanner.DecoratedBarcodeView>
+</TableLayout>
